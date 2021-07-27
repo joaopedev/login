@@ -2,13 +2,17 @@ import React, { useState } from 'react';
 import './login.css'
 import { MdMail } from "react-icons/md";
 import { MdLock } from "react-icons/md";
-import { BsFillEyeFill, AiFillEyeInvisible } from "react-icons/hi"
+import { HiEye, HiEyeOff } from "react-icons/hi"
 
 
-const login = () => {
+const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [show, setShow] = useState(false);
+    const handleClick = (e) => {
+        e.preventDefault()
+        setShow(!show);
+    }
 
     return (
         <div className="login">
@@ -28,12 +32,26 @@ const login = () => {
                       </input>
                   </div>
                   <div className="loginPassword">
+
                       <MdLock />
-                      <input type={show ? "text" :"passaword"}
+                      <input 
+
                       placeholder="Digite sua senha"
+                      type={show ? "text" :"password"}
                       value={password}
                       onChange={e => setPassword(e.target.value)}>
                       </input>
+
+                      <div className="login-eye">
+                            {show ? (< HiEye 
+                                size={20}
+                                onClick={handleClick}
+                            />) : (<HiEyeOff 
+                                size={20}
+                                onClick={handleClick}
+                            />)}
+                      </div>
+
                   </div>   
                       <button className="bt1" type="submit">Entrar</button>
                       <h3>Nao tenho conta</h3>
@@ -47,6 +65,6 @@ const login = () => {
     
 }
 
-export default login;
+export default Login;
                       
                       
