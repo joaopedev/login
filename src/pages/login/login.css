@@ -13,7 +13,7 @@
 }
 
 .login-right h1{
-    margin-left: 20px;
+    margin-left: 39px;
     margin-bottom: 10px;
     font-family: 'Roboto Slab';
     font-size: 50px;
@@ -31,8 +31,8 @@
 .loginEmail {
     display: flex;
     align-items: center;
-    color: tomato;
-    background-color: tomato;
+    color: black;
+    background-color: rgb(229, 226, 226);
     border-radius: 3px;
     padding: 3px;
     width: 98%;
@@ -44,15 +44,27 @@
 .loginEmail svg {
     margin-left: 20px;
     font-size: larger;
-    background-color:tomato;
+    background-color:rgb(229, 226, 226);
     margin-right: 10px;
 }
+
+.loginEmail input {
+    /* background: transparent; */
+    width: 100%;
+    outline-width: 0;
+    color:#e1e1e6;
+    border:none;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 .loginPassword {
     display: flex;
     align-items: center;
-    color: gray;
-    background-color: tomato;
+    color:black;
+    background-color: rgb(229, 226, 226);
     border-radius: 3px;
     padding: 3px;
     width: 98%;
@@ -64,6 +76,35 @@
 .loginPassword svg {
     margin-left: 20px;
     font-size: larger;
-    background-color:tomato;
+    background-color:rgb(229, 226, 226);
     margin-right: 10px;
+}
+
+.loginPassword input {
+    /* background: transparent; */
+    width: 100%;
+    outline-width: 0;
+    color:#e1e1e6;
+    border:none;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-right button {
+    width: 98%;
+    background-color:eff2f5 ;
+    color: rgb(21, 59, 163);
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+
+.login-right button:hover {
+    background-color: rgb(21, 59, 163);
+    color: #eff2f5;
+    cursor: pointer;
 }
