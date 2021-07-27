@@ -24,9 +24,9 @@ const login = () => {
                       placeholder="Digite sua senha">
                       </input>
                   </div>   
-                      <button type="submit">Entrar</button>
-                      <h4>Nao tenho conta</h4>
-                      <button type="submit">Cadastro</button>
+                      <button className="bt1" type="submit">Entrar</button>
+                      <h3>Nao tenho conta</h3>
+                      <button className="bt2" type="submit">Cadastro</button>
                   
               </div> 
            

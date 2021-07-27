@@ -12,6 +12,19 @@
     height: 300px;
 }
 
+/* .login-right {
+    background-color: rgb(229, 226, 226);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+} */
+
 .login-right h1{
     margin-left: 39px;
     margin-bottom: 10px;
@@ -19,13 +32,15 @@
     font-size: 50px;
 }
 
-.login-right h4{
+.login-right h3{
     font-family: 'Roboto Slab';
     font-weight: 300;
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 15px;
     font-weight: 500;
-    color: #e1e1e6;
+    color: black;
+    margin-left: 120px;
+    
 }
 
 .loginEmail {
@@ -92,15 +107,15 @@
 }
 
 .login-right button {
-    width: 98%;
+    width: 70%;
     background-color:eff2f5 ;
     color: rgb(21, 59, 163);
-    font-weight: 800;
-    height: 50px;
+    font-weight: 600;
+    height: 40px;
     border-radius: 5px;
     font-size: 18px;
-    margin-top: 5px;
-    margin-left: 23px;
+    margin-top: 15px;
+    margin-left: 65px;
 }
 
 .login-right button:hover {
