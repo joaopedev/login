@@ -1,17 +1,24 @@
 import React, { useState } from 'react';
 import './login.css'
+import Api from '../../Api'
 import { MdMail } from "react-icons/md";
 import { MdLock } from "react-icons/md";
 import { HiEye, HiEyeOff } from "react-icons/hi"
 
 
 const Login = () => {
+
+
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [show, setShow] = useState(false);
     const handleClick = (e) => {
         e.preventDefault()
         setShow(!show);
+    }
+
+    function onChange(event){
+        
     }
 
     return (

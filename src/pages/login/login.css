@@ -124,9 +124,14 @@
     cursor: pointer;
 }
 
+.login-eye {
+    background-color: rgb(229, 226, 226);
+}
+
 .login-eye svg {
     margin-left: 20px;
     font-size: larger;
     background-color:rgb(229, 226, 226);
     margin-right: 10px;
+    color: tomato;
 }
